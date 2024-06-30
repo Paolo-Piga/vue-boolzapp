@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* bg image al body */
+body{
+    background-image: url(https://images.unsplash.com/photo-1652986766649-1f3382b0e98b?q=80&w=2121&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* spazio tra parte alta e le chat */
+.margin{
+    margin: 50px;
+}
+
+/* container boolzap */
+.container{
+    width: 65%;
+    height: 800px;
+    background-color: black;
+    margin: 0 auto;
+    display: flex;
+}
+
+
