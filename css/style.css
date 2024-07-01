@@ -29,19 +29,69 @@ body{
 .my-utilities{
     width: 20%;
     height: 100%;
-    background-color: red;
+    
 }
 
 .info-user{
     height: 80px;
-    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid grey;
+    background-color: lightgray;
 }
 
+.info-user h6{
+    margin-right: 60px;
+    font-size: 18px;
+}
+.avatar{
+    width: 50px;
+    height: 50px;
+    margin-left: 6px;
+}
+
+.avatar img{
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.icons{
+    margin-right: 2px;
+}
+
+.icons a{
+    color: black;
+}
 .notifications{
     height: 70px;
-    background-color: aqua;
+    background-color: rgb(128, 128, 128);
+    display: flex;
+    justify-content: space-around;
+    
+    /* align-items: center; */
 }
 
+
+.notifications .avatar{
+    border-radius: 50%;
+    border: 1px solid #000000;
+    margin: 5px 5px 5px 0;
+    background-color: white;
+}
+
+.notStuff{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.notStuff a{
+    text-decoration: none;
+}
 .search{
     height: 50px;
     background-color: white;
