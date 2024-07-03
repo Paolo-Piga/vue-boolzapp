@@ -17,7 +17,7 @@
     <div class="margin"></div>
     
     <div class="container" id="app">
-        <!-- container per info,notifiche, search bar e chat -->
+        container per info,notifiche, search bar e chat
         <div class="my-utilities">
             <div class="info-user">
                 <div class="avatar">
@@ -47,7 +47,22 @@
                 </div>
             </div>
             <div class="chats">
-                <!-- 1 -->
+
+                <div class="struttura-chat" v-for="(struttura,index) in persone" :key="index">
+                    <div class="struttura-chat">
+                        <div class="user">
+                            <div class="avatar-chat">
+                                <img src="persone.avatar" alt="">
+                            </div>
+                            <div class="activities">
+                                <h3>{{ persone.nome }}</h3>
+                                <span>{{ persone.date }}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--  
                 <div class="struttura-chat">
                     <div class="avatar-chat">
                         <img src="img/fox-8275476_1280.jpg" alt="">
@@ -61,7 +76,7 @@
                     </div>
                     
                 </div>
-                <!-- 2 -->
+                 2 
                 <div class="struttura-chat">
                     <div class="avatar-chat">
                         <img src="img/fox-8275476_1280.jpg" alt="">
@@ -75,7 +90,7 @@
                     </div>
                     
                 </div>
-                <!-- 3 -->
+                 3 
                 <div class="struttura-chat">
                     <div class="avatar-chat">
                         <img src="img/fox-8275476_1280.jpg" alt="">
@@ -89,7 +104,7 @@
                     </div>
                     
                 </div>
-                <!-- 4 -->
+                4 
                 <div class="struttura-chat">
                     <div class="avatar-chat">
                         <img src="img/fox-8275476_1280.jpg" alt="">
@@ -103,7 +118,7 @@
                     </div>
                     
                 </div>
-                <!-- 5 -->
+                5
                 <div class="struttura-chat">
                     <div class="avatar-chat">
                         <img src="img/fox-8275476_1280.jpg" alt="">
@@ -117,7 +132,7 @@
                     </div>
                     
                 </div>
-                <!-- 6 -->
+                6 
                 <div class="struttura-chat">
                     <div class="avatar-chat">
                         <img src="img/fox-8275476_1280.jpg" alt="">
@@ -130,7 +145,7 @@
                         <span class="orario">12:00</span>
                     </div>
                     
-                </div>
+                </div> -->
                 
             </div>
         </div>
